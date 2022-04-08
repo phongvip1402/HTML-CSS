@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid;
+}
+
+.header {
+    background-color: red;
+    height: 50px;
+}
+
+.hai {
+    background-color: yellow;
+    height: 200px;
+    float: left;
+}
+
+.ba {
+    background-color: green;
+    height: 200px;
+    float: left;
+}
+
+.bon {
+    background-color: blue;
+    height: 200px;
+    float: left;
+}
+
+.nam {
+    background-color: aqua;
+    height: 200px;
+    float: left;
+}
+
+.sau {
+    background-color: bisque;
+    height: 200px;
+    float: left;
+}
+
+.bay {
+    background-color: blueviolet;
+    height: 200px;
+    float: left;
+}
+
+.tam {
+    background-color: cadetblue;
+    height: 200px;
+    float: left;
+}
+
+.footer {
+    background-color: black;
+    height: 50px;
+    clear: both;
+}
