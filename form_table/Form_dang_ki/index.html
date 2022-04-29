@@ -5,28 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form đăng kí 2 </title>
+    <title>Form đăng kí</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #d5feff;
+        }
+        
         .container {
-            width: 50%;
-            margin: 0 auto;
+            width: 60%;
+            margin: auto;
             background-color: #fffda9;
+            padding: 1px;
         }
-        .header h1{
-            pading:5px;
-            background-color:#d4fdd6;
+        
+        form {
+            margin-top: 5px;
         }
-        .right-col{
-            width:60%;
+        
+        h3 {
+            width: 98%;
+            background-color: #ff4c00;
+            color: #1a48fb;
+            font-size: 20px;
+            line-height: 30px;
+            margin: 5px;
+            padding-left: 5px;
+        }
+        
+        .right-col {
+            width: 60%;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="header"><h1>ĐĂNG KÝ HỌC VIÊN</h1></div>
+        <h3>ĐĂNG KÝ HỌC VIÊN</h3>
         <form action="#">
-            <table >
+            <table>
                 <tr>
                     <td class="left-col">
                         <label for="name">Họ và tên</label>
@@ -71,11 +91,11 @@
                         <label for="class">Lớp</label>
                     </td>
                     <td class="right-col">
-                        <select name="class" id="class">
-                            <option value="" >--chọn lớp--</option> 
-                            <option value="A">Lớp A</option>
-                            <option value="A">Lớp B</option>
-                        </select>
+                        <select name="class" id="class" style="width:100px">
+                                <option value="" >--chọn lớp--</option> 
+                                <option value="A">Lớp A</option>
+                                <option value="A">Lớp B</option>
+                            </select>
                     </td>
                 </tr>
 
@@ -84,7 +104,7 @@
                         <label for="email">email</label>
                     </td>
                     <td class="right-col">
-                        <input type="email" name="email"id="email">
+                        <input type="email" name="email" id="email">
                     </td>
                 </tr>
 
@@ -100,13 +120,14 @@
                     <td class="left-col">
                     </td>
                     <td class="right-col">
-                        <button type="button" >Đăng ký </button>
-                        <button type="button" >Nhập lại </button>
+                        <button type="button">Đăng ký </button>
+                        <button type="button">Nhập lại </button>
                     </td>
                 </tr>
             </table>
         </form>
     </div>
+
 </body>
 
 </html>

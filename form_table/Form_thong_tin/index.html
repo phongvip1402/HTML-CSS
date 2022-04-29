@@ -5,46 +5,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form đăng ký</title>
+    <title>Form thông tin</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+        
         body {
             background-color: #d5feff;
+            font-family: "Helvetica Neue", Helvetica;
         }
-
-        .form-group {
+        
+        .container {
             background-color: #ffffff;
             width: 60%;
-            margin: 0px auto;
+            margin: auto;
+            position: relative;
         }
-
+        
+        h3 {
+            width: 98%;
+            background-color: rgb(255 76 0 / 1);
+            color: #ffffff;
+            font-size: 20px;
+            text-align: center;
+            line-height: 30px;
+            position: absolute;
+            top: -12px;
+            left: 9px;
+        }
+        
+        form {
+            padding-top: 35px;
+            margin-left: 85px;
+        }
+        
         .right-col {
             color: #586bc6;
-            
         }
-
+        
         .left-col {
             color: #ff9d73;
         }
+        
         .checkbox {
             box-shadow: 1px 1px 1px #888985 inset;
-        }
-        .form-title {
-            background-color: rgb(255 76 0 / 1);
         }
     </style>
 </head>
 
-<body style="margin: auto;">
-    <div class="form-group">
-        <h1 style="text-align: center;" class="form-title">SỞ THÍCH CỦA BẠN</h1>
+<body>
+    <div class="container">
+        <h3>SỞ THÍCH CỦA BẠN</h3>
         <form action="#" method="get" class="signup">
-            <table cellspacing="0" cellpadding="10px" style="margin: 0px auto">
+            <table cellpadding="10px">
                 <tr>
                     <td class="right-col">
                         Họ và tên
                     </td>
                     <td class="left-col">
-                        <input style="box-shadow: 1px 1px 1px #888985 inset;" name="name" placeholder="nhập tên">
+                        <input style="box-shadow: 1px 1px 1px #888985 inset;width: 285px;" name="name" placeholder="nhập tên">
                     </td>
                 </tr>
                 <tr>
@@ -59,15 +79,15 @@
                         <table>
                             <tr>
                                 <td>
-                                    <input type="checkbox" id="sport" class="checkbox"  name="hb" value="sport">
-                                     <label for="sport"> Thể thao</label>
+                                    <input type="checkbox" id="sport" class="checkbox" name="hb" value="sport">
+                                    <label for="sport"> Thể thao</label>
                                 </td>
                                 <td>
-                                    <input type="checkbox" id="music" class="checkbox"  name="hb" value="music">
+                                    <input type="checkbox" id="music" class="checkbox" name="hb" value="music">
                                     <label for="music"> Âm nhạc</label>
                                 </td>
                                 <td>
-                                    <input type="checkbox" id="read"  class="checkbox" name="hb" value="read">
+                                    <input type="checkbox" id="read" class="checkbox" name="hb" value="read">
                                     <label for="read"> Đọc sách</label> <br>
                                 </td>
                             </tr>
@@ -77,18 +97,18 @@
                                     <label for="web"> Lướt web</label>
                                 </td>
                                 <td>
-                                    <input type="checkbox" id="game"  class="checkbox" name="hb" value="game">
+                                    <input type="checkbox" id="game" class="checkbox" name="hb" value="game">
                                     <label for="game"> Chơi game</label>
                                 </td>
                                 <td>
 
-                                    <input type="checkbox" id="film"  class="checkbox" name="hb" value="film">
+                                    <input type="checkbox" id="film" class="checkbox" name="hb" value="film">
                                     <label for="film"> Điện ảnh</label><br>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input type="checkbox" id="travel class="checkbox" " name="hb" value="travel">
+                                    <input type="checkbox" id="travel class=" checkbox " " name="hb" value="travel">
                                     <label for="travel"> Du lịch </label>
                                 </td>
                                 <td></td>

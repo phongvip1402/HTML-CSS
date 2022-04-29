@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.header_top {
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+
+ul li {
+    padding: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.nav .nav__link--btn {
+    width: 15px;
+    height: 10px;
+    padding: 10px;
+    border: 1px solid #a6efd4;
+}
+
+.header__logo img {
+    width: 10%;
+    margin: 20px;
+    margin-left: 200px;
+}
+
+.header__banner {
+    background-image: url("./images/slider.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.header__banner h1 {
+    padding-top: 90px;
+}
