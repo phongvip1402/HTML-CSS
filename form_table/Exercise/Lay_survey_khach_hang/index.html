@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form lấy survey khách hàng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <p>Market Research Survey</p>
+        <p>please take few moments to complete this satisfaction survey</p>
+    </div>
+    <form action="#" method="get">
+        <div class="age_range">
+            <div class="title">
+                <p for="age">What is your age range?</p>
+            </div>
+            <div class="content">
+                <select name="age" id="age">
+                    <option value="18-24">18-24</option>
+                    <option value="25-34">25-34</option>
+                    <option value="35-50">35-50</option>
+                    <option value="50+">50+</option>
+                </select>
+            </div>
+        </div>
+        <div class="income_range">
+            <div class="title">
+                <p for="income">What is your income range?</p>
+            </div>
+            <div class="content">
+                <select name="aincomege" id="income">
+                <option value="$0-25,000$">$0-25,000$</option>
+                <option value="$25,001$-50,000$">$25,001$-50,000$</option>
+                <option value="$50,001-100,000$">$50,001-100,000$</option>
+                <option value="$100,000+">$100,000+</option>
+            </select>
+            </div>
+        </div>
+        <div class="gender">
+            <div class="title">
+                <p>Gender</p>
+            </div>
+            <div class="content">
+                <div>
+                    <input type="radio" name="gender" id="male" value="male" checked>
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="nonbinary" value="nonbinary">
+                    <label for="nonbinary">Nonbinary</label>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <div class="title">
+                <p for="product">Which of the following products have your purchased in the last 2 months. Please check all that apply.</p>
+            </div>
+            <div class="content">
+                <div>
+                    <input type="checkbox" name="product" value="product-1" id="product-1">
+                    <label for="product-1">Product 1</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="product" value="product-2" id="product-2">
+                    <label for="product-2">Product 2</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="product" value="product-3" id="product-3">
+                    <label for="product-3">Product 3</label>
+                </div>
+            </div>
+        </div>
+        <div class="use_product">
+            <div class="title">
+                <p>How often would you use our new product?</p>
+            </div>
+            <div class="content">
+                <div>
+                    <input type="radio" name="use_product" id="daily" value="daily" checked>
+                    <label for="daily">Daily</label>
+                </div>
+                <div>
+                    <input type="radio" name="use_product" id="Weekly" value="weekly">
+                    <label for="Weekly">Weekly</label>
+                </div>
+                <div>
+                    <input type="radio" name="use_product" id="monthly" value="monthly">
+                    <label for="monthly">Monthly</label>
+                </div>
+            </div>
+        </div>
+        <div class="pay">
+            <div class="title">
+                <p>What would you pay for the new product?</p>
+            </div>
+            <div class="content">
+                <span>$</span> <input type="text" name="pay" id="dollar" size="7" /> <span>.</span>&nbsp;<input type="text" size="1" />
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="title">
+                <p><label for="feature">What features would you like to see in the new product.</label></p>
+            </div>
+            <div class="content">
+                <textarea name="feature" id="feature" rows="9" cols="198%"></textarea>
+            </div>
+        </div>
+
+        <div class="table">
+            <div class="title">
+                <p>Please rate your level of agreement with the following statement.</p>
+            </div>
+            <div class="content">
+                <table style="border: 1px solid black;">
+                    <tr>
+                        <th></th>
+                        <th>Strongly Disagree</th>
+                        <th>Disagree</th>
+                        <th>Agree</th>
+                        <th>Strongly Agree </th>
+                    </tr>
+                    <tr>
+                        <td>Our products are priced fairly</td>
+                        <td>
+                            <input type="radio" name="rate" value="1" id="1">
+                            <label for="1">1</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="rate" value="2" id="2">
+                            <label for="2">2</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="rate" value="3" id="3">
+                            <label for="3">3</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="rate" value="4" id="4">
+                            <label for="4">4</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Our products are high quality!</td>
+                        <td>
+                            <input type="radio" name="rate2" value="1" id="rate2_1">
+                            <label for="rate2_1">1</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="rate2" value="2" id="rate2_2">
+                            <label for="rate2_2">2</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="rate2" value="3" id="rate2_3">
+                            <label for="rate2_3">3</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="rate2" value="4" id="rate2_4">
+                            <label for="rate2_4">4</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>You would recommend our product to a friend or coworkers.</td>
+                        <td>
+                            <input type="radio" name="rate3" value="1" id="rate3_1">
+                            <label for="rate3_1">1</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="rate3" value="2" id="rate3_2">
+                            <label for="rate3_2">2</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="rate3" value="3" id="rate3_3">
+                            <label for="rate3_3">3</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="rate3" value="4" id="rate3_4">
+                            <label for="rate3_4">4</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </form>
+</body>
+
+</html>

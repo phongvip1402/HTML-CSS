@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 10px;
+    line-height: 135%;
+}
+
+.header p:first-child {
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.header p:last-child {
+    color: #ccc;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+form {
+    border-top: 1px dashed #ccc;
+    margin-top: 14px;
+}
+
+p {
+    font-weight: bold;
+}
+
+.age_range {
+    padding: 10px;
+}
+
+.age_range .content {
+    margin-top: 5px;
+}
+
+.age_range .content select {
+    width: 200px;
+}
+
+.age_range:hover {
+    background-color: #fff7c0;
+    background-clip: border-box;
+}
+
+.income_range {
+    padding: 10px;
+}
+
+.income_range .content {
+    margin-top: 5px;
+}
+
+.income_range .content select {
+    width: 200px;
+}
+
+.income_range:hover {
+    background-color: #fff7c0;
+    background-clip: border-box;
+}
+
+.gender {
+    padding: 10px;
+}
+
+.gender .title {
+    margin-bottom: 5px;
+}
+
+.gender .content label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.gender:hover {
+    background-color: #fff7c0
+}
+
+.product {
+    padding: 10px;
+}
+
+.product .content div {
+    margin-top: 5px;
+}
+
+.product:hover {
+    background-color: #fff7c0
+}
+
+.use_product {
+    padding: 10px;
+}
+
+.use_product div {
+    margin-top: 5px;
+}
+
+.use_product:hover {
+    background-color: #fff7c0;
+}
+
+.pay {
+    padding: 10px;
+}
+
+.pay .content {
+    margin-top: 5px;
+}
+
+.feature {
+    padding: 10px;
+}
+
+.feature textarea {
+    margin-top: 5px
+}
+
+.feature:hover {
+    background-color: #fff7c0;
+}
+
+.table:hover {
+    background-color: #fff7c0;
+}
+
+.table {
+    padding-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    line-height: 40px;
+}
+
+th {
+    font-weight: normal;
+}
+
+td:nth-child(1) {
+    font-weight: bold;
+    text-align: left;
+}
+
+tr td:nth-child(n+1) {
+    width: 52px;
+}
+
+tr:nth-child(odd) {
+    background-color: #ccc;
+}
