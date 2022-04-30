@@ -130,7 +130,7 @@ p {
 }
 
 .table {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 table {
@@ -160,4 +160,13 @@ tr td:nth-child(n+1) {
 
 tr:nth-child(odd) {
     background-color: #ccc;
+}
+
+button {
+    background-color: #fff;
+    color: black;
+    border-radius: 3px;
+    width: 80px;
+    font-weight: bold;
+    font-size: 20px;
 }
