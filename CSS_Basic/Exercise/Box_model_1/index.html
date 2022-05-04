@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model 1 </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .text {
+            width: 200px;
+            height: 200px;
+            background: grey;
+            padding: 50px 15px 45px 15px;
+            border: 25px solid greenyellow;
+            background-clip: content-box;
+            color: green;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            line-height: 27px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text">
+        Web Programming
+    </div>
+</body>
+
+</html>
