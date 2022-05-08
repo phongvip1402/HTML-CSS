@@ -114,3 +114,10 @@
         width: 100%;
     }
 }
+
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
+    /* Thích ứng với chiều xoay của màn hình */
+}
