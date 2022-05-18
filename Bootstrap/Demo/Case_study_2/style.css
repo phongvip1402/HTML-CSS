@@ -120,7 +120,6 @@ header .container .col-md-7 p {
     width: 100%;
     height: 55vmin;
     background-image: url('./assets/pexels-photo-452738.jpeg');
-    background-position: -24rem -19rem;
     background-size: 150%;
     position: relative;
 }
@@ -163,6 +162,9 @@ header .container .col-md-7 p {
     font-size: 5rem;
     color: tomato;
 }
+
+
+/* purchase */
 
 .purchase .cards .card {
     width: 22rem;
